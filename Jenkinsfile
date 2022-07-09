@@ -1,9 +1,5 @@
 pipeline {
 
-    agent {
-        label 'master'
-    }
-
     environment {
         image = "shounnnn/nodejs"
         registry = "docker.io"
