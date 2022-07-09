@@ -40,12 +40,12 @@ pipeline {
             }
         }
 
-        stage('Deployment'){
-            steps {
-                sh "docker-compose up -d"
-            }
+        // stage('Deployment'){
+        //     steps {
+        //         sh "docker-compose up -d"
+        //     }
             
-        }
+        // }
 
         // stage('tag docker image') {
         //     steps {
