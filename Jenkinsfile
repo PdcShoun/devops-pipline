@@ -1,5 +1,7 @@
 pipeline {
 
+    agent any
+
     environment {
         image = "shounnnn/nodejs"
         registry = "docker.io"
